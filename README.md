@@ -4,6 +4,8 @@ An advanced Music Bot, with 30+ Radio Stations, with capability of filters, like
 
 <br>
 
+ [![Run on Repl.it](https://replit.com/badge/github/itzrobinn/HustleMusic-Bot)](https://repl.it/github/itzrobinn/HustleMusic-Bot)</br>
+ 
 #### Commands:
 
 - `filter <FILTERNAME>` --    *Set Audio - Effects*
@@ -38,7 +40,6 @@ An advanced Music Bot, with 30+ Radio Stations, with capability of filters, like
  
  **5.** start the bot with **`node index.js`**<br/>
  
- [![Run on Repl.it](https://replit.com/badge/github/itzrobinn/HustleMusic-Bot)](https://repl.it/github/itzrobinn/HustleMusic-Bot)</br>
 
 ## **TUTORIAL** 
 
