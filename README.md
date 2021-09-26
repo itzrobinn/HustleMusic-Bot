@@ -1,10 +1,6 @@
-[![Music-Bot-With-Filters-v2](https://github-readme-stats.vercel.app/api/pin/?username=navaneethkm004&repo=Music-Bot-With-Filters-v2&theme=dark)](https://github.com/navaneethkm004/Music-Bot-With-Filters-v2)<br/>
+[![HustleMusic-Bot](https://github-readme-stats.vercel.app/api/pin/?username=itzrobinn&repo=HustleMusic-Bot&theme=dark)](https://github.com/itzrobinn/HustleMusic-Bot)<br/>
 
-An advanced Music Bot, with 30+ Radio Stations, with capability of filters, like Bassboost, Nightcore, etc. and reaction interactivity. Based on ytdl-core with discord.js Guide Handler. With ideas from eritislami 
-
-### **IMPORTANT!** 
-
-If you decide to use this Bot, [check out this Github repo first](https://github.com/navaneethkm004/Music-Bot-With-Filters) cause this is the same exact Bot with standard Discord/Unicode Emojis, which means that you can just simply use it instantly without changing the emojis!
+An advanced Music Bot, with 30+ Radio Stations, with capability of filters, like Bassboost, Nightcore, etc. and reaction interactivity. Based on ytdl-core with discord.js Guide Handler.
 
 #### Commands:
 
@@ -50,11 +46,11 @@ If you decide to use this Bot, [check out this Github repo first](https://github
 
 ```json
 {
-  "TOKEN": "",
-  "PREFIX": "+",
-  "approveemoji": "EMOJIID",
-  "denyemoji": "EMOJIID",
-  "erroremoji": "EMOJIID"
+  "TOKEN": "BOT TOKEN",
+  "PREFIX": "YOUR PREFIX",
+  "approveemoji": "EMOJI ID",
+  "denyemoji": "EMOJI ID",
+  "erroremoji": "EMOJI ID"
 }
 ```
 
@@ -71,11 +67,7 @@ It is important that you fill in every item of the JSON FILE! every emoji used i
 <div align="center">
            
                 <img
-                    src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square" 
+                    src="https://img.shields.io/badge/Follow-Instagram%20-red.svg?style=flat-circle" 
                     align="center"
                 />
             </a></div>
-
-## Credits
-
-[@eritislami](https://github.com/eritislami/) For the Reacting system to messages, great Idea i adopted that [@iCrawl/evobot](https://github.com/eritislami/evobot)
