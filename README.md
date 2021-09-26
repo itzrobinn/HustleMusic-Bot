@@ -69,9 +69,10 @@ It is important that you fill in every item of the JSON FILE! every emoji used i
 ## SUPPORT ME
 
 <div align="center">
-           
+            <a href="https://www.instagram.com/robintheflyboy" target="_blank" style="display: inline-block;">
                 <img
                     src="https://img.shields.io/badge/Follow-Instagram%20-red.svg?style=flat-circle" 
                     align="center"
+                    color="red"
                 />
             </a></div>
