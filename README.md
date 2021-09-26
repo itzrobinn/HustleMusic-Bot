@@ -1,10 +1,8 @@
-[![HustleMusic-Bot](https://github-readme-stats.vercel.app/api/pin/?username=itzrobinn&repo=HustleMusic-Bot&theme=dark)](https://github.com/itzrobinn/HustleMusic-Bot)<br/>
+[![HustleMusic Bot](https://github-readme-stats.vercel.app/api/pin/?username=itzrobinn&repo=HustleMusic-Bot&theme=dark)](https://github.com/itzrobinn/HustleMusic-Bot)<br/>
 
 An advanced Music Bot, with 30+ Radio Stations, with capability of filters, like Bassboost, Nightcore, etc. and reaction interactivity. Based on ytdl-core with discord.js Guide Handler.
 
-
- [![Run on Repl.it](https://replit.com/badge/github/itzrobinn/HustleMusic-Bot)](https://repl.it/github/itzrobinn/HustleMusic-Bot)
-
+<br>
 
 #### Commands:
 
@@ -40,13 +38,16 @@ An advanced Music Bot, with 30+ Radio Stations, with capability of filters, like
  
  **5.** start the bot with **`node index.js`**<br/>
  
+ [![Run on Repl.it](https://replit.com/badge/github/itzrobinn/HustleMusic-Bot)](https://repl.it/github/itzrobinn/HustleMusic-Bot)</br>
+
+## **TUTORIAL** 
+
+Watch tutorial on YouTube!<br/>
+
+[<img src="https://cdn.discordapp.com/attachments/887817613084876854/891722941421748224/discord.png?raw=true" width="350" height="350">](https://www.youtube.com/watch?v=IPv1uWSKC-Q)<br/>
 
 
-
-
-
-
-## Usage - config.json
+## Usage | config.json
 
 ```json
 {
@@ -76,3 +77,4 @@ It is important that you fill in every item of the JSON FILE! every emoji used i
                     color="red"
                 />
             </a></div>
+
