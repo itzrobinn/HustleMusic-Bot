@@ -26,7 +26,7 @@ module.exports = {
       queue.channel.leave();
       message.client.queue.delete(message.guild.id);
       const endembed = new MessageEmbed().setColor("#F0EAD6")
-        .setAuthor(`Music Queue ended.`, "https://cdn.discordapp.com/attachments/778600026280558617/781024479623118878/ezgif.com-gif-maker_1.gif")
+        .setAuthor(`Music Queue ended.`, "https://media.discordapp.net/attachments/856642999361863690/886447116103352360/cccccc.png?width=492&height=492")
       return queue.textChannel.send(endembed).catch(console.error);
     }
 
@@ -133,13 +133,13 @@ module.exports = {
     }
     
   let thumb;
-    if (song.thumbnail === undefined) thumb = "https://cdn.discordapp.com/attachments/778600026280558617/781024479623118878/ezgif.com-gif-maker_1.gif";
+    if (song.thumbnail === undefined) thumb = "https://media.discordapp.net/attachments/856642999361863690/886447116103352360/cccccc.png?width=492&height=492";
     else thumb = song.thumbnail.url;
 
   try {
       let embed = new MessageEmbed()
       .setColor("#F0EAD6")
-      .setAuthor(`Started playing: ${song.title}`,'https://cdn.discordapp.com/attachments/778600026280558617/781024479623118878/ezgif.com-gif-maker_1.gif')
+      .setAuthor(`Started playing: ${song.title}`,'https://media.discordapp.net/attachments/856642999361863690/886447116103352360/cccccc.png?width=492&height=492')
       var playingMessage = await queue.textChannel.send(embed);
       var playingMessage = await queue.textChannel.send(`${song.url}`);
       await playingMessage.react("⏭");
@@ -279,7 +279,7 @@ module.exports = {
         let ms = (Number(minutes)*60+Number(seconds));   
         //get thumbnail
         let thumb;
-        if (song.thumbnail === undefined) thumb = "https://cdn.discordapp.com/attachments/778600026280558617/781024479623118878/ezgif.com-gif-maker_1.gif";
+        if (song.thumbnail === undefined) thumb = "https://media.discordapp.net/attachments/856642999361863690/886447116103352360/cccccc.png?width=492&height=492";
         else thumb = song.thumbnail.url;
         //define current time
         const seek = (queue.connection.dispatcher.streamTime - queue.connection.dispatcher.pausedTime) / 1000;
@@ -287,7 +287,7 @@ module.exports = {
         const left = ms - seek;
         //define embed
         let nowPlaying = new MessageEmbed()
-          .setAuthor('♪Now playing♪','https://cdn.discordapp.com/attachments/778600026280558617/781024479623118878/ezgif.com-gif-maker_1.gif','http://harmonymusic.tk')
+          .setAuthor('♪Now playing♪','https://media.discordapp.net/attachments/856642999361863690/886447116103352360/cccccc.png?width=492&height=492','http://hustlemusic.tk')
           .setDescription(`[**${song.title}**](${song.url})`)
           .setThumbnail(song.thumbnail.url)
           .setColor("#F0EAD6")
@@ -337,7 +337,7 @@ module.exports = {
           if (!canModifyQueue(member)) return;
           let lyrics = null;
           let temEmbed = new MessageEmbed()
-          .setAuthor("Searching...", "https://cdn.discordapp.com/attachments/778600026280558617/781024479623118878/ezgif.com-gif-maker_1.gif").setFooter("Lyrics")
+          .setAuthor("Searching...", "https://media.discordapp.net/attachments/856642999361863690/886447116103352360/cccccc.png?width=492&height=492").setFooter("Lyrics")
           .setColor("#F0EAD6")
           let result = await message.channel.send(temEmbed)
           try {
