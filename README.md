@@ -2,6 +2,8 @@
 
 An advanced Music Bot, with 30+ Radio Stations, with capability of filters, like Bassboost, Nightcore, etc. and reaction interactivity. Based on ytdl-core with discord.js Guide Handler.
 
+ [![Run on Repl.it](https://replit.com/badge/github/itzrobinn/HustleMusic-Bot)](https://repl.it/github/itzrobinn/HustleMusic-Bot)</br>
+
 #### Commands:
 
 - `filter <FILTERNAME>` --    *Set Audio - Effects*
