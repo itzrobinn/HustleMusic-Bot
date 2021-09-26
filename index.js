@@ -35,8 +35,7 @@ client.on(`ready`, () => {
       });
       
 
-      client.user.setActivity(`${PREFIX}help | ${client.guilds.cache.size} Server`, { type: "STREAMING",
-      url: "https://www.twitch.tv/nocopyrightsounds"});
+      client.user.setActivity(`${PREFIX}help | ${client.guilds.cache.size} Server`);
    
   
       }, (5000));
@@ -91,7 +90,7 @@ client.on(`message`, async (message) => {
     const embed = new Discord.MessageEmbed()
     .setColor("#F0EAD6")
     .setDescription(saymsg)
-    .setFooter("Harmony", client.user.displayAvatarURL())
+    .setFooter("HustleMusic", client.user.displayAvatarURL())
     //delete the Command
     message.delete({timeout: 300})
     //send the Message
